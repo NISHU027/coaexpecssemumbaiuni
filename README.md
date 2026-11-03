@@ -1,26 +1,26 @@
 # Computer Organization & Architecture Practicals
 
-A small, interactive reference library for COA practicals. Each experiment includes its aim, a C program, and a short algorithm. The page also has copy buttons for the code examples.
+An interactive reference library for COA practicals. Each experiment includes its aim, a C program, and a short algorithm. The website includes copy buttons for the examples.
 
 **Live website:** [COA Practical](https://coapracticalans.vercel.app/)
 
-## Included experiments
+## Experiments
 
-| Experiment | Topic |
-|---|---|
-| 02 | Booth multiplication |
-| 3.1 | Restoring division |
-| 3.2 | Non-restoring division |
-| 05 | Memory interleaving |
-| 06 | MESI cache consistency model |
-| 08 | FIFO, LRU, and LFU page replacement |
-| 09 | Pipeline data hazards (RAW, WAR, WAW) |
-| 10 | Four-state dynamic branch prediction |
+| Experiment | Topic | C source |
+|---|---|---|
+| 02 | Booth multiplication | [Open source](programs/experiment-02-booth-multiplication.c) |
+| 3.1 | Restoring division | [Open source](programs/experiment-03-1-restoring-division.c) |
+| 3.2 | Non-restoring division | [Open source](programs/experiment-03-2-non-restoring-division.c) |
+| 05 | Memory interleaving | [Open source](programs/experiment-05-memory-interleaving.c) |
+| 06 | MESI cache consistency model | [Open source](programs/experiment-06-mesi-cache-consistency.c) |
+| 08 | FIFO, LRU, and LFU page replacement | [Open source](programs/experiment-08-page-replacement-fifo-lru-lfu.c) |
+| 09 | Pipeline data hazards (RAW, WAR, WAW) | [Open source](programs/experiment-09-pipeline-data-hazards.c) |
+| 10 | Four-state dynamic branch prediction | [Open source](programs/experiment-10-dynamic-branch-prediction.c) |
 
 ## Repository contents
 
-- `index.html` — complete static website, including experiment descriptions, code examples, styles, and interactive copy controls.
-- `programs/` — standalone C source files for each listed experiment.
+- [`index.html`](index.html) — complete static website, with experiment descriptions, code examples, styles, and interactive copy controls.
+- [`programs/`](programs/) — standalone C files for each listed experiment.
 - `LICENSE` — project license.
 
 ## Run locally
