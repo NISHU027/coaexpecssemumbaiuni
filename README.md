@@ -20,6 +20,7 @@ A small, interactive reference library for COA practicals. Each experiment inclu
 ## Repository contents
 
 - `index.html` — complete static website, including experiment descriptions, code examples, styles, and interactive copy controls.
+- `programs/` — standalone C source files for each listed experiment.
 - `LICENSE` — project license.
 
 ## Run locally
